@@ -7,11 +7,11 @@ fun main(){
         numberInput = null
 
         while (numberInput == null) {
-            println("Ingresa un número: ")
+            println("Ingresa un numero: ")
             numberInput = readlnOrNull()?.toIntOrNull()
 
             if (numberInput == null) {
-                println("Entrada no válida. Ingresa un número entero.")
+                println("Entrada no valida. Ingresa un numero.")
             }
         }
 
@@ -29,10 +29,10 @@ fun main(){
         }
 
         if (primo) {
-            println("El número $numberInput es primo. ¡Programa finalizado!")
-            break // Termina el programa si el número es primo
+            println("El numero $numberInput es primo.")
+            break
         } else {
-            println("El número $numberInput no es primo. Intenta de nuevo.")
+            println("El numero $numberInput no es primo. Intenta de nuevo.")
         }
     }
 }
